@@ -213,7 +213,7 @@ local fsbar = wibox.widget {
     widget           = wibox.widget.progressbar,
 }
 theme.fs = lain.widget.fs({
-    partition = "/home",
+    partition = "/",
     options = "--exclude-type=tmpfs",
     notification_preset = { fg = theme.fg_normal, bg = theme.bg_normal, font = "Tamzen 10.5" },
     settings  = function()
